@@ -1,0 +1,13 @@
+{
+  "mode": "retrieval-only",
+  "answer": "[1] A pod in CrashLoopBackOff repeatedly starts and exits. Inspect `kubectl describe pod POD` for events and exit codes. Use `kubectl logs POD --previous` to inspect the last failed container. Check application configuration, missing secrets, and startup probes. Reproduce the failure before changing resource limits. Escalate to the workload owner if logs contain an application exception.",
+  "sources": [
+    {
+      "citation": 1,
+      "source": "kubernetes.md",
+      "section": "CrashLoopBackOff",
+      "score": 2.1167,
+      "text": "A pod in CrashLoopBackOff repeatedly starts and exits. Inspect `kubectl describe pod POD` for events and exit codes. Use `kubectl logs POD --previous` to inspect the last failed container. Check application configuration, missing secrets, and startup probes. Reproduce the failure before changing resource limits. Escalate to the workload owner if logs contain an application exception."
+    }
+  ]
+}
